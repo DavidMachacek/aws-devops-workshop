@@ -38,7 +38,7 @@ export class PipelineCdkStack extends Stack {
                     actionName: "CodeCommit",
                     repository: sourceRepo,
                     output: sourceOutput,
-                    branch: "main",
+                    branch: "master",
                 }),
             ],
         });
