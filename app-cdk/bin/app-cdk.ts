@@ -5,7 +5,7 @@ import { AppCdkStack } from '../lib/app-cdk-stack';
 import { PipelineCdkStack } from '../lib/pipeline-cdk-stack'
 
 const app = new cdk.App();
-const envWorkshop  = { account: '184169608132', region: 'us-east-1' };
+const envWorkshop  = { account: '401901297044', region: 'us-east-1' };
 
 new AppCdkStack(app, 'AppCdkStack', { env: envWorkshop
   /* If you don't specify 'env', this stack will be environment-agnostic.

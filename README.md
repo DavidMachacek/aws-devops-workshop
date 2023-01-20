@@ -4,4 +4,3 @@ git remote add origin ssh://APKASVYK5GPCG2777RHU@git-codecommit.us-east-1.amazon
 git add .
 git commit -m "Initial Commit"
 git push --set-upstream origin main
-
