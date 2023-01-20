@@ -76,3 +76,4 @@ cd ..
 mkdir app-cdk && cd app-cdk
 npm install -g aws-cdk
 
+npm add --include=dev jest-junit 
